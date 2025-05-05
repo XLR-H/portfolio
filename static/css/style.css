@@ -1,0 +1,41 @@
+:root {
+    --blue: #08f;
+    --blue-dark: #005377;
+    --orange: #f80;
+    --orange-dark: #b35400;
+    --text-color: #222;
+    --bg-color: #888;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+a {
+    color: var(--blue);
+}
+a:hover {
+    color: var(--orange);
+} 
+
+.navbar {
+    background-color: var(--blue-dark);
+}
+
+footer {
+    background-color: var(--blue-dark);
+    color: white;
+}
+
+.btn-primary {
+    background-color: var(--blue);
+    border-color: var(--blue-dark);
+}
+
+.btn-primary:hover {
+    background-color: var(--orange);
+    border-color: var(--orange-dark);
+}
+
